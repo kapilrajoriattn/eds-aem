@@ -1,5 +1,5 @@
 .hero-container .hero-wrapper {
-  max-width: unset;
+  /* max-width: unset; */
   padding: 0;
 }
 
@@ -34,4 +34,13 @@
   .hero {
     padding: 40px 32px;
   }
+}
+
+.hero-content {
+  background-color: var(--light-color);
+  padding: 30px 40px;
+}
+
+.hero-content h2 {
+  margin: 0;
 }

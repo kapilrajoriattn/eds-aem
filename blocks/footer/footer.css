@@ -5,7 +5,7 @@ footer {
 
 footer .footer > div {
   margin: auto;
-  max-width: 1200px;
+  max-width: 1600px;
   padding: 40px 24px 24px;
 }
 
@@ -17,4 +17,24 @@ footer .footer p {
   footer .footer > div {
     padding: 40px 32px 24px;
   }
+}
+
+footer .links-section {
+  width: 100%;
+  border-bottom: 1px solid var(--border-color);
+  margin: 10px auto;
+}
+
+footer .links-section .default-content-wrapper p {
+  display: flex;
+  gap: 10px;
+  font-size: 1.125rem;
+  line-height: 1.2em;
+  margin-bottom: 20px;
+}
+
+footer .copyright-info > div {
+  display: flex;
+  align-items: center;
+  gap: 40px;
 }

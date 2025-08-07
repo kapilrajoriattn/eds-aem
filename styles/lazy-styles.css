@@ -1,1 +1,4 @@
 /* add global styles that can be loaded post LCP here */
+main > .section > .default-content-wrapper {
+    margin: 40px auto 10px;
+}
