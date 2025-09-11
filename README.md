@@ -2,8 +2,8 @@
 Your project's description...
 
 ## Environments
-- Preview: [https://main--eds-aem--kapil-ttn.aem.page/](https://main--eds-aem--kapil-ttn.aem.page/)
-- Live: [https://main--eds-aem--kapil-ttn.aem.live/](https://main--eds-aem--kapil-ttn.aem.live/)
+- Preview: [https://main--eds-aem--kapilrajoriattn.aem.page/](https://main--eds-aem--kapilrajoriattn.aem.page/)
+- Live: [https://main--eds-aem--kapilrajoriattn.aem.live/](https://main--eds-aem--kapilrajoriattn.aem.live/)
 
 ## Documentation
 
