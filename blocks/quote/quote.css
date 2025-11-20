@@ -1,41 +1,60 @@
 .quote blockquote {
-  margin: 0 auto;
-  padding: 0 24px;
+  margin: 48px auto;
+  padding: 32px 24px;
   max-width: 900px;
+
+  border-left: 5px solid #0070c0;
+  background-color: #f4f8fb;
+  border-radius: 4px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 @media (width >= 900px) {
   .quote blockquote {
-    padding: 0 32px;
+    padding: 48px 48px;
   }
 }
 
 .quote blockquote .quote-quotation {
-  font-size: 120%;
+  font-family: Georgia, serif;
+  font-size: 1.5rem;
+  line-height: 1.6;
+  color: #333333;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+@media (width < 600px) {
+  .quote blockquote .quote-quotation {
+    font-size: 1.25rem;
+  }
 }
 
 .quote blockquote .quote-quotation > :first-child {
-  text-indent: -0.5ch;
+  text-indent: 0;
 }
 
 .quote blockquote .quote-quotation > :first-child::before,
 .quote blockquote .quote-quotation > :last-child::after {
+  font-family: inherit;
+  font-size: 2.5rem;
   line-height: 0;
-}
-
-.quote blockquote .quote-quotation > :first-child::before {
-  content: "“";
-}
-
-.quote blockquote .quote-quotation > :last-child::after {
-  content: "”";
+  vertical-align: -0.5em;
+  color: #0070c0;
 }
 
 .quote blockquote .quote-attribution {
+  display: block;
   text-align: right;
+  font-size: 1rem;
+  font-style: normal;
+  color: #555555;
+  font-weight: bold;
+  padding-top: 10px;
+  border-top: 1px solid #c9d5e3;
 }
 
-.quote blockquote .quote-attribution > :first-child::before {
-  content: "—";
+.quote blockquote .quote-attribution::before {
   padding-right: 0.5ch;
+  color: #0070c0;
 }
