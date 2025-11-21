@@ -5,6 +5,8 @@ indices:
       - /**
     target: /query-index.json
     properties:
-      title:
-        select: head > meta[property="og:title"]
+      customProperty:
+        select: head > meta[name="custom-property"]
         value: attribute(el, "content")
+      
+        
